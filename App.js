@@ -15,7 +15,7 @@ const auth = FIREBASE_AUTH;
 const AuthLayout = () => {
   return (
    
-      <authStack.Navigator initialRouteName="Login">
+      <authStack.Navigator initialRouteName="Home">
         <authStack.Screen name="Home" component={Home}   />
       </authStack.Navigator>
    
